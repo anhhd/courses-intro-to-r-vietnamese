@@ -368,10 +368,10 @@ success_msg("Hừm, hình như R không phân biệt giới tính. Hoặc ta c�
 --- type:NormalExercise xp:100 skills:1 key:9ab0928916bf84ab225713a9a1ce40d9e322c6a0
 ## Factor có phân biệt thứ tự (1)
 
-Bời vì `"Male"` và `"Female"` có giá trịnh không phân biệt thứ tự, nên R lưu ý với bạn rằng, giá trị lớn hơn không có giá trị trong trường hợp này. Như ta đã thấy trước đó, R gán các giá trị bằng nhau cho factor
+Bời vì `"Male"` và `"Female"` là giá trị của biến factor không phân biệt thứ tự, nên R hiển thị thông báo với bạn rằng, không tồn tại phép toán lớn hơn trường hợp này. Như ta đã thấy trước đó, R gán các giá trị bằng nhau cho factor
 
 
-Tuy nhiên, không phải lúc nào cũng vậy! Đôi lúc bạn cần phải xử lý fator có phân biệt thứ tự. Trong trường hợp này, ta cần chắc chắn rằng ta đã khai báo các thông tin này với R.
+Tuy nhiên, không phải lúc nào cũng vậy! Đôi lúc bạn cần phải xử lý factor có phân biệt thứ tự. Trong trường hợp này, ta cần chắc chắn rằng ta đã khai báo các thông tin này với R.
 
 Giả sử rằng bạn đang hướng dẫn một nhóm nhiên cứu gồm có 5 chuyên viên phân tích dữ liệu, và rằng bạn muốn đánh giá quá trình nghiên cứu của họ. Để làm điều này, bạn cần đánh giá tốc độ làm việc của họ thành các giá trị `"slow"`, `"fast"` hay `"insane"`, và lưu kết quả trong véc-tơ `speed_vector`.
 
